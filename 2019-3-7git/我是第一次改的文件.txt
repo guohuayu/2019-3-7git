@@ -12,8 +12,14 @@ git commit -m  "备注信息" ||  :wq		提交 本地仓库
 
 在初始化文件夹创建 touch .gitignore 文件在里面写<文件名> || /<文件夹名>  	
 
-git checkout master || <分支名>			 	进入主分支
+
 git branch   <分支名>				 	创建分支
+git checkout master || <分支名>			 	进入主分支
+
 
 git merge <分支名>				分支导入主分支（在主分支下导入）
+
+git remote add origin <接入远程项目链接> 	接入远程项目
+
+git push -u origin master 			使用push 推送远程仓库
  						 
