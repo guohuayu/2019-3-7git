@@ -1,2 +1,15 @@
-111
-22222
+git init  					初始化本地仓库
+
+git add <文件名> || .|| *文件类型		添加文件提交列表
+
+git status					查询状态（*****）
+	
+git em --cached <文件名> 			删除新提交的文件
+
+git reset  <文件名> 		
+
+git commit -m  "备注信息" ||  :wq		提交 本地仓库
+
+在初始化文件夹创建 touch .gitignore 文件在里面写<文件名> || /<文件夹名>  	
+
+ 						 
